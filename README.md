@@ -2,6 +2,8 @@
 
 This repository contains a configuration file that can be used to flash a [Tuya DY-RQ400A Combustible Gas Alarm](https://expo.tuya.com/product/602455) with ESPHome using Libretiny as it has a [WB2S](https://docs.libretiny.eu/boards/wb2s/) (BK7231T) chip built-in.
 
+More details about the device are documented at the [ESPHome devices page](https://devices.esphome.io/devices/Tuya-DY-RQ400A-Combustible-Gas-Alarm).
+
 # Flashing
 
 Flashing can be done via [UART1](https://docs.libretiny.eu/boards/wb2s/#pinout) using an UART. The chip requires 3.3V to be powered on:
